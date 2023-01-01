@@ -1,0 +1,14 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "e:\\ueproject\\airlockmodule\\plugins\\airlocksystemcpp\\source\\airlocksystemcpp\\private\\airlocksystemcpp.cpp",
+        "ProvidedModule": "",
+        "PCH": "e:\\ueproject\\airlockmodule\\intermediate\\build\\win64\\airlockmoduleeditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "Includes": [
+            "e:\\ueproject\\airlockmodule\\plugins\\airlocksystemcpp\\intermediate\\build\\win64\\unrealeditor\\development\\airlocksystemcpp\\definitions.airlocksystemcpp.h",
+            "e:\\ueproject\\airlockmodule\\plugins\\airlocksystemcpp\\source\\airlocksystemcpp\\public\\airlocksystemcpp.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

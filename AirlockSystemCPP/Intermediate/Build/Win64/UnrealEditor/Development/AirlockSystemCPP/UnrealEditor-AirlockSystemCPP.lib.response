@@ -1,0 +1,12 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-AirlockSystemCPP.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"E:\UEProject\AirlockModule\Intermediate\Build\Win64\AirlockModuleEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"E:\UEProject\AirlockModule\Plugins\AirlockSystemCPP\Intermediate\Build\Win64\UnrealEditor\Development\AirlockSystemCPP\AirlockSystemCPP.cpp.obj"
+"E:\UEProject\AirlockModule\Plugins\AirlockSystemCPP\Intermediate\Build\Win64\UnrealEditor\Development\AirlockSystemCPP\Default.rc2.res"
+/OUT:"E:\UEProject\AirlockModule\Plugins\AirlockSystemCPP\Intermediate\Build\Win64\UnrealEditor\Development\AirlockSystemCPP\UnrealEditor-AirlockSystemCPP.lib"
