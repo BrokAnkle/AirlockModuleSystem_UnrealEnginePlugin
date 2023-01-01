@@ -15,6 +15,4 @@ Quick tutorial:
 7. Add an input action and bind the Pressed to Press Pointer Key and the Released to Release Pointer Key of the Widget Interaction component. The key should be Left Mouse Button. This is needed to interact with the physical widgets.
 8. Click play and VOILÀ!
 
-Tutorial Youtube Playlist: https://youtube.com/playlist?list=PLFpS-1ONm2bpRavTB7qSoWQfNa0GxSDFx
-
 If any problem, suggestion, bugs etc... Please contact me.
