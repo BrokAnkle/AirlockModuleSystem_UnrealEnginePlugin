@@ -127,6 +127,7 @@ void UUWAirlockModulePanel::CodeFailure_Implementation()
 void UUWAirlockModulePanel::OnUnlockSuccess_Implementation()
 {
 	PanelSwitcher->SetVisibility(ESlateVisibility::Collapsed);
+	DisplayText->SetText(FText::FromString("Unlocked !"));
 }
 
 void UUWAirlockModulePanel::BindDelegates()
@@ -166,7 +167,8 @@ void UUWAirlockModulePanel::InitProperties()
 	m_bShowPressurizationTimer = ModuleOwner->m_bShowPressurizationTimer;
 
 	FString t;	
-	t.Append("Airlock system plugin " + UEnum::GetDisplayValueAsText(m_eModuleUnlockMethod).ToString() + " exemple");
+	t.Append("Airlock system plugin\nUnlock by " + UEnum::GetDisplayValueAsText(m_eModuleUnlockMethod).ToString() + " exemple");
+	
 	DisplayText->SetText(FText::FromString(t));
 }
 

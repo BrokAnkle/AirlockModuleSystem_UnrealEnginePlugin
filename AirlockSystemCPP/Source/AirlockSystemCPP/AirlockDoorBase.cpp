@@ -92,6 +92,7 @@ void AAirlockDoorBase::OnConstruction(const FTransform& Transform)
 {
 	Super::OnConstruction(Transform);
 	TextRender->SetText(UEnum::GetDisplayValueAsText(m_eDoorType));
+	TextRender->SetTextRenderColor(FColor::Blue);
 }
 
 void AAirlockDoorBase::DestroyOpenButton()
